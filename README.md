@@ -73,8 +73,11 @@ Pool testing was recorded using multiple GoPro cameras. The robot's position was
 ```text
 .
 ├── hardware/
-│   └── pcb/        # KiCad schematic, PCB layout, and project files
-├── images/         # Prototype and system-design images
+│   └── pcb/                      # KiCad schematic, PCB layout, and project files
+├── software/
+│   └── firmware/
+│       └── robot_control_ble/    # Arduino BLE servo-control firmware
+├── images/                       # Prototype and system-design images
 ├── .gitignore
 └── README.md
 ```
