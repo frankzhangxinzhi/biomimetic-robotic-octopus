@@ -3,7 +3,7 @@
 A biomimetic underwater robot using asymmetrically stiffening flexible fins for propulsion and maneuvering.
 
 <p align="center">
-  <img src="images/robot-pool-test.jpg" alt="Biomimetic robotic octopus during pool testing" width="650">
+  <img src="images/robot-pool-test.jpg" alt="Biomimetic robotic octopus during pool testing" width="500">
 </p>
 
 ## Overview
