@@ -16,7 +16,7 @@ The prototype completed 3 m swimming trials and demonstrated a 180-degree turn i
 
 - Independently designed the custom PCB in KiCad and completed system wiring and circuit debugging.
 - Led the SolidWorks mechanical design and independently performed the buoyancy calculations.
-- Led IMU data acquisition and MATLAB-based data visualization.
+- Collaborated on IMU data acquisition and MATLAB-based data visualization.
 - Independently completed waterproofing integration and electrical system validation.
 - Co-developed the Arduino-based control software for four servo-actuated fins.
 - Led pool testing and analysis of straight-swimming and turning performance.
