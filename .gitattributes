@@ -4,3 +4,4 @@ research/fin-characterization/original/** -text -whitespace
 research/fin-characterization/firmware/**/*.ino -text -whitespace
 research/fin-characterization/data/totalResult*.csv -text
 software/firmware/archive/**/*.ino -text -whitespace
+testing/pool-tests/original/*.trk -text -whitespace

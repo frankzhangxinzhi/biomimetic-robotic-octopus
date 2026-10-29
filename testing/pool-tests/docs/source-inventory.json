@@ -1,0 +1,307 @@
+{
+  "report": {
+    "filename": "G25_Final_Report_441b.pdf",
+    "date": "2025-05-12",
+    "sha256": "8f8ea264a61073c4a967274f64eb3c926e8ee017275fbc757bf23f80f166db24"
+  },
+  "tracker_files": [
+    {
+      "file": "original/GH017603.trk",
+      "sha256": "98cd1c1e435a5bb77287e9d8264b3d3c8012bf968a2533f85bf75e4f44554028",
+      "bytes": 67070,
+      "source_folder": "https://drive.google.com/drive/folders/10098X-i45I7TCb15Yi13klID55TDLVTH",
+      "inferred_motion_type": "straight-swimming geometry",
+      "motion_type_basis": "Geometry of saved image-coordinate markings only; not video verification.",
+      "report_trial_mapping": "Not confirmed",
+      "referenced_videos": [
+        "GH017603.mov"
+      ],
+      "saved_coordinate_settings": [
+        {
+          "xorigin": "1180.4647302904564",
+          "yorigin": "372.6002766251729",
+          "angle": "0.0",
+          "xscale": "981.316289862167",
+          "yscale": "981.316289862167"
+        },
+        {
+          "xorigin": "1180.4647302904564",
+          "yorigin": "372.6002766251729",
+          "angle": "0.0",
+          "xscale": "981.316289862167",
+          "yscale": "981.316289862167"
+        }
+      ],
+      "saved_coordinate_flags": [
+        {
+          "fixedorigin": "true",
+          "fixedangle": "true",
+          "fixedscale": "false"
+        }
+      ],
+      "saved_clip_settings": [
+        {
+          "startframe": "0",
+          "stepsize": "1",
+          "stepcount": "2439",
+          "starttime": "0.0"
+        },
+        {
+          "delta_t": "16.681453377085045",
+          "frame": "2006"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "mass A",
+          "saved_markings": 28,
+          "first_saved_frame": 26,
+          "last_saved_frame": 417
+        },
+        {
+          "name": "mass B",
+          "saved_markings": 26,
+          "first_saved_frame": 126,
+          "last_saved_frame": 458
+        },
+        {
+          "name": "mass C",
+          "saved_markings": 27,
+          "first_saved_frame": 82,
+          "last_saved_frame": 461
+        }
+      ]
+    },
+    {
+      "file": "original/IMG_1200.trk",
+      "sha256": "b768acdefad34050fbc5ab5d08b8faa82a77cbd2810f4085ee3a58c01cf7cd2a",
+      "bytes": 44554,
+      "source_folder": "https://drive.google.com/drive/folders/10098X-i45I7TCb15Yi13klID55TDLVTH",
+      "inferred_motion_type": "turning geometry",
+      "motion_type_basis": "Geometry of saved image-coordinate markings only; not video verification.",
+      "report_trial_mapping": "Not confirmed",
+      "referenced_videos": [
+        "IMG_1200.mov"
+      ],
+      "saved_coordinate_settings": [
+        {
+          "xorigin": "1269.7510373443984",
+          "yorigin": "363.24481327800834",
+          "angle": "-0.5012548377391086",
+          "xscale": "801.5659442723154",
+          "yscale": "801.5659442723154"
+        }
+      ],
+      "saved_coordinate_flags": [
+        {
+          "fixedorigin": "true",
+          "fixedangle": "true",
+          "fixedscale": "true"
+        }
+      ],
+      "saved_clip_settings": [
+        {
+          "startframe": "0",
+          "stepsize": "1",
+          "stepcount": "511",
+          "starttime": "0.0"
+        },
+        {
+          "delta_t": "33.31699346405229",
+          "frame": "172"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "mass A",
+          "saved_markings": 21,
+          "first_saved_frame": 0,
+          "last_saved_frame": 510
+        },
+        {
+          "name": "mass B",
+          "saved_markings": 26,
+          "first_saved_frame": 1,
+          "last_saved_frame": 504
+        },
+        {
+          "name": "mass C",
+          "saved_markings": 25,
+          "first_saved_frame": 38,
+          "last_saved_frame": 510
+        }
+      ]
+    },
+    {
+      "file": "original/IMG_1201.trk",
+      "sha256": "a19d26fb34bc4b8957a073b56060aa7d49039dcbb0f8fc883c4b25d3745d0587",
+      "bytes": 31231,
+      "source_folder": "https://drive.google.com/drive/folders/10098X-i45I7TCb15Yi13klID55TDLVTH",
+      "inferred_motion_type": "turning geometry",
+      "motion_type_basis": "Geometry of saved image-coordinate markings only; not video verification.",
+      "report_trial_mapping": "Not confirmed",
+      "referenced_videos": [
+        "IMG_1201.mov"
+      ],
+      "saved_coordinate_settings": [
+        {
+          "xorigin": "907.7178423236514",
+          "yorigin": "485.4771784232365",
+          "angle": "0.0",
+          "xscale": "914.743912999736",
+          "yscale": "914.743912999736"
+        }
+      ],
+      "saved_coordinate_flags": [
+        {
+          "fixedorigin": "true",
+          "fixedangle": "true",
+          "fixedscale": "true"
+        }
+      ],
+      "saved_clip_settings": [
+        {
+          "startframe": "0",
+          "stepsize": "1",
+          "stepcount": "179",
+          "starttime": "0.0"
+        },
+        {
+          "delta_t": "33.342696629213485",
+          "frame": "16"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "mass A",
+          "saved_markings": 21,
+          "first_saved_frame": 5,
+          "last_saved_frame": 169
+        },
+        {
+          "name": "mass B",
+          "saved_markings": 15,
+          "first_saved_frame": 0,
+          "last_saved_frame": 176
+        },
+        {
+          "name": "mass C",
+          "saved_markings": 16,
+          "first_saved_frame": 0,
+          "last_saved_frame": 177
+        }
+      ]
+    },
+    {
+      "file": "original/IMG_1202.trk",
+      "sha256": "3abce3e5f010a68bfc7558957f549690556972300704fd31f8787289e3426344",
+      "bytes": 33455,
+      "source_folder": "https://drive.google.com/drive/folders/10098X-i45I7TCb15Yi13klID55TDLVTH",
+      "inferred_motion_type": "turning geometry",
+      "motion_type_basis": "Geometry of saved image-coordinate markings only; not video verification.",
+      "report_trial_mapping": "Not confirmed",
+      "referenced_videos": [
+        "IMG_1202.MOV"
+      ],
+      "saved_coordinate_settings": [
+        {
+          "xorigin": "731.4522821576763",
+          "yorigin": "416.76348547717845",
+          "angle": "0.0",
+          "xscale": "1035.1877997515587",
+          "yscale": "1035.1877997515587"
+        }
+      ],
+      "saved_coordinate_flags": [
+        {
+          "fixedorigin": "true",
+          "fixedangle": "true",
+          "fixedscale": "true"
+        }
+      ],
+      "saved_clip_settings": [
+        {
+          "startframe": "0",
+          "stepsize": "1",
+          "stepcount": "165",
+          "starttime": "0.0"
+        },
+        {
+          "delta_t": "33.333333333333336",
+          "frame": "7"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "mass A",
+          "saved_markings": 18,
+          "first_saved_frame": 0,
+          "last_saved_frame": 164
+        },
+        {
+          "name": "mass B",
+          "saved_markings": 20,
+          "first_saved_frame": 0,
+          "last_saved_frame": 164
+        },
+        {
+          "name": "mass C",
+          "saved_markings": 18,
+          "first_saved_frame": 5,
+          "last_saved_frame": 159
+        }
+      ]
+    }
+  ],
+  "report_images": [
+    {
+      "file": "figures/tracking-markers.jpg",
+      "report_pdf_page": 19,
+      "report_figure": "Figure 20",
+      "sha256": "3497f5cff65347355573d88989f29e0ea0e8ebf1cd9e2cb297e3fb71c41cf94f",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/straight-swimming-reported-horizontal.png",
+      "report_pdf_page": 20,
+      "report_figure": "Figure 21, horizontal motion",
+      "sha256": "98ad036749bfd1429c142717f7d003779dc5187d7beb64bbf05c634b1f8a28fd",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/straight-swimming-reported-vertical.png",
+      "report_pdf_page": 20,
+      "report_figure": "Figure 21, vertical motion",
+      "sha256": "c38e07d247c4576afca562daa7ab810b81bbb3c11b333f511ea2247c2ffc9969",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/reported-3m-horizontal-projection.png",
+      "report_pdf_page": 22,
+      "report_figure": "Figure 23, horizontal projection",
+      "sha256": "a4a6f061a36be22c713fe3e96da43cedbcd999f17c15570d9f716cffd969b8bc",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/reported-3m-vertical-projection.png",
+      "report_pdf_page": 22,
+      "report_figure": "Figure 23, vertical projection",
+      "sha256": "920f36992742a76f44a06ec4f6772b35d1f9bc3bdc500701ba5fb6f9f2ed284b",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/turning-reported-time-trace.png",
+      "report_pdf_page": 24,
+      "report_figure": "Figure 24, time trace",
+      "sha256": "5f57af8c798d4d30c8d1cc964f37ce8c303f1cea05a98485e9d2f711fa1d809a",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    },
+    {
+      "file": "figures/turning-reported-path.jpg",
+      "report_pdf_page": 24,
+      "report_figure": "Figure 24, path diagram",
+      "sha256": "f90e6a67afa56dbfa14d5aee32efad3ff3c22c3ec97b7d278a850d73ac6ad980",
+      "description": "Embedded report image extracted without redrawing; not a regenerated analysis result."
+    }
+  ]
+}
