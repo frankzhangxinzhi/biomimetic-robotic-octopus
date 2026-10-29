@@ -1,6 +1,11 @@
 # Mechanical CAD
 
 This directory contains the mechanical CAD package for the biomimetic robotic octopus.
+<p align="center">
+  <img src="../../images/solidworks-assembly-view.png" alt="SolidWorks assembly of the biomimetic robotic octopus" width="750">
+</p>
+
+<p align="center"><em>SolidWorks assembly showing the outer shell, base plate, fin actuation system, and simplified electronics packaging.</em></p>
 
 ## Files
 
