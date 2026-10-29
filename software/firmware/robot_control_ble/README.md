@@ -24,6 +24,12 @@ Arduino firmware used to control the four flexible fins of the biomimetic roboti
 
 The firmware was operated through the nRF Connect mobile application during pool testing.
 
+In nRF Connect, connect to `BT-ServoSwitch` and write a single byte to characteristic `2A56`: use `01` to start or `00` to stop when the input format is **ByteArray / Hex**. The characteristic expects a numeric byte, rather than the text character `1` or `0`.
+
+## Opening the Sketch
+
+Open `robot_control_ble.ino` in Arduino IDE, select **Arduino Nano RP2040 Connect** from the Arduino Mbed OS Nano Boards package, and install the `Servo` and `ArduinoBLE` libraries through Library Manager. The source includes servo motion control and BLE commands; IMU acquisition is not implemented in this sketch.
+
 ## Motion Profile
 
 The four servos follow a synchronized sinusoidal trajectory defined by `angle = amplitude × sin(2π × frequency × time) + offset`.
@@ -39,7 +45,9 @@ Default parameters:
 | Start delay | 10 s |
 | Maximum run time | 60 s |
 
-The 10-second delay allowed the operator to initiate the test and move away before the fins began moving. The firmware continues the active motion sequence if the BLE connection is interrupted and automatically stops after 60 seconds.
+After a start command, the servos first move to the 90-degree center position for approximately 1 second, then detach during the 10-second waiting period. Motion therefore begins approximately 11 seconds after the command. A stop command returns all servos to center for approximately 1 second before detaching them. Repeated start commands are ignored while waiting or moving.
+
+The 10-second waiting period allowed the operator to move away before the fins began moving. The firmware continues the active motion sequence if the BLE connection is interrupted and automatically stops after 60 seconds of motion. The 5 ms interval schedules angle commands; it does not specify the servo's PWM pulse rate.
 
 ## Attribution
 

@@ -12,6 +12,16 @@ This project was developed by a three-person USC engineering team to design, man
 
 Pool trials demonstrated fin-driven propulsion and a basic turning response. The report extrapolated fitted swimming trajectories to assess stability over 3 m of travel. Three fin-deactivation trials reported a 180-degree turning response of 5.5 ± 0.4 seconds. Closed-loop heading control and trajectory tracking remained future work.
 
+## Explore the Project
+
+| Project area | Files and documentation |
+| --- | --- |
+| AME 441a: fin characterization | [Original MATLAB analysis, dual-servo firmware and experimental data](research/fin-characterization) |
+| AME 441b: mechanical design | [SolidWorks assembly and STEP model](hardware/mechanical) |
+| AME 441b: electronics | [KiCad schematic, PCB layout and connector mapping](hardware/pcb) |
+| AME 441b: robot firmware | [Four-servo BLE control and operating sequence](software/firmware/robot_control_ble) |
+| AME 441b: pool testing | [Swimming and turning results, figures and recovered Tracker files](testing/pool-tests) |
+
 ## My Contributions
 
 - Independently designed the custom PCB in KiCad and completed system wiring and circuit debugging.

@@ -11,7 +11,7 @@ This directory contains the mechanical CAD package for the biomimetic robotic oc
 
 - `solidworks/RoboOctoV4.SLDASM` — top-level SolidWorks assembly.
 - `solidworks/` — referenced SolidWorks part and subassembly files collected using Pack and Go.
-- `step/RoboOctoV4_Assembly.step` — neutral-format assembly for viewing in other CAD applications.
+- [RoboOctoV4_Assembly.STEP](step/RoboOctoV4_Assembly.STEP) — neutral-format assembly for viewing in other CAD applications.
 
 ## Design Overview
 
