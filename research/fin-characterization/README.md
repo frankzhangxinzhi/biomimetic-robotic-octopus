@@ -59,7 +59,12 @@ This loads the four supplied MAT snapshots and plots them without NI hardware or
 
 ## Raw Data and Reprocessing
 
-The four final series reference 98 CSV files, totaling about 535 MiB. Those files are present locally and indexed in `data/source_manifest.json`, with relative paths, shapes and SHA-256 hashes. The manifest also indexes additional calibration and experimental CSV files. A complete local `441a-experimental-data.zip` package has been prepared containing all 156 recovered CSV files, including additional tests and calibration data, plus the manifest and trial-selection notes. The bulk raw recordings and ZIP have not been added to Git or uploaded yet.
+The four final series reference 98 CSV files, totaling about 535 MiB. Those files are present locally and indexed in `data/source_manifest.json`, with relative paths, shapes and SHA-256 hashes. The manifest also indexes additional calibration and experimental CSV files. The [published experimental data archive](https://github.com/frankzhangxinzhi/biomimetic-robotic-octopus/releases/tag/441a-data-v1) contains all 156 recovered CSV files, including additional tests and calibration data, plus the manifest and trial-selection notes. The bulk recordings are distributed as a Release attachment to keep Git history small.
+
+- [Download the original CSV data ZIP (about 237 MiB)](https://github.com/frankzhangxinzhi/biomimetic-robotic-octopus/releases/download/441a-data-v1/441a-experimental-data.zip)
+- [Download the SHA-256 checksum](https://github.com/frankzhangxinzhi/biomimetic-robotic-octopus/releases/download/441a-data-v1/441a-experimental-data.sha256)
+
+GitHub's published SHA-256 digest for the ZIP matches the local archive: `880142839d7d52e262e13ce821da2d79fc828a7767c6e1cc5285d5c53557668b`. The ZIP preserves the original relative directory layout, including `formalTest/` and calibration directories. Extract it into a chosen data root, then adapt the historical absolute paths in working copies of the scripts to that root. Keep the archived originals unchanged. Download the named data attachment; GitHub's automatically generated Source code ZIP/TAR contains repository files and does not contain these large CSV recordings.
 
 For those 98 files, the column layout is:
 

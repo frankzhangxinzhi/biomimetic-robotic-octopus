@@ -27,6 +27,8 @@ Before the robotic octopus integration, the first semester investigated tunable-
 
 [View the recovered Arduino firmware, original MATLAB code, saved results, experiment documentation and data inventory.](research/fin-characterization)
 
+[Download the AME 441a experimental data archive (156 CSV files).](https://github.com/frankzhangxinzhi/biomimetic-robotic-octopus/releases/tag/441a-data-v1)
+
 This earlier four-person research phase is documented separately from the three-person AME 441b robot described on this page.
 
 ## System Design
