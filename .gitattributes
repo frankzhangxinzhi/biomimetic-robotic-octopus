@@ -1,0 +1,6 @@
+# Preserve recovered experiment and firmware source bytes, including line endings.
+# Historical whitespace is part of the archive; keep it unchanged.
+research/fin-characterization/original/** -text -whitespace
+research/fin-characterization/firmware/**/*.ino -text -whitespace
+research/fin-characterization/data/totalResult*.csv -text
+software/firmware/archive/**/*.ino -text -whitespace

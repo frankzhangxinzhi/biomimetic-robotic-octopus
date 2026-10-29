@@ -21,6 +21,14 @@ The prototype completed 3 m swimming trials and demonstrated a 180-degree turn i
 - Co-developed the Arduino-based control software for four servo-actuated fins.
 - Led pool testing and analysis of straight-swimming and turning performance.
 
+## Earlier Research Phase: AME 441a
+
+Before the robotic octopus integration, the first semester investigated tunable-stiffness fins using a load-cell water-tank test fixture. Four materials and multiple fin lengths were evaluated through MATLAB data acquisition and analysis. Nylon reached a measured thrust-to-drag ratio of approximately 2.70 at 125 mm.
+
+[View the recovered Arduino firmware, original MATLAB code, saved results, experiment documentation and data inventory.](research/fin-characterization)
+
+This earlier four-person research phase is documented separately from the three-person AME 441b robot described on this page.
+
 ## System Design
 
 <p align="center">
@@ -82,7 +90,10 @@ Pool testing was recorded using multiple GoPro cameras. The robot's position was
 │   └── pcb/                          # KiCad schematic, PCB layout, and project files
 ├── software/
 │   └── firmware/
-│       └── robot_control_ble/        # Arduino BLE servo-control firmware
+│       ├── robot_control_ble/        # Arduino BLE servo-control firmware
+│       └── archive/                  # Earlier four-servo firmware without BLE
+├── research/
+│   └── fin-characterization/          # AME 441a original MATLAB work, results, and data inventory
 ├── images/                           # Prototype, CAD, and system-design images
 ├── .gitignore
 └── README.md

@@ -1,0 +1,36 @@
+{
+  "recovered_from": "C:/Users/frank/Downloads",
+  "date": "2026-10-29",
+  "files": [
+    {
+      "source": "sinusoidal_input_v2.ino",
+      "repository_path": "research/fin-characterization/firmware/sinusoidal_input_v2/sinusoidal_input_v2.ino",
+      "sha256": "bc97a689e9bcca3b5bacbd6606e6dad9f92c3486a3d9fc13ffff10f04b9ce58c"
+    },
+    {
+      "source": "servo_sweep.ino",
+      "repository_path": "research/fin-characterization/firmware/archive/servo_sweep/servo_sweep.ino",
+      "sha256": "397c17c3be8bdaae021a59228b2bfb1e0e74544c51130292070a673c14f4d158"
+    },
+    {
+      "source": "kaleighs_Prac_Code.ino",
+      "repository_path": "research/fin-characterization/firmware/archive/kaleighs_Prac_Code/kaleighs_Prac_Code.ino",
+      "sha256": "5167a8acd9f3813b82574e6e404b92b08911d21bffb31d724b5b2749027aed69"
+    },
+    {
+      "source": "RoboOctoArduinoCode.ino",
+      "repository_path": "software/firmware/archive/RoboOctoArduinoCode/RoboOctoArduinoCode.ino",
+      "sha256": "f88ae32f5b7b93f8706abb1c169f7b01751143175fc81168255e0314668c8e19"
+    }
+  ],
+  "duplicate_sources": [
+    {
+      "file": "servo_sweep/servo_sweep.ino",
+      "same_as": "servo_sweep.ino"
+    },
+    {
+      "file": "RoboOctoArduinoCode_copy_20250421160937.ino",
+      "same_as": "RoboOctoArduinoCode.ino"
+    }
+  ]
+}

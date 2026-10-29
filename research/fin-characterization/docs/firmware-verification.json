@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "sketch": "sinusoidal_input_v2",
+      "fqbn": "arduino:avr:uno",
+      "core_version": "1.8.6",
+      "Servo_version": "1.2.2",
+      "compiled": true,
+      "reported_R4_Minima_verified": false,
+      "flash_bytes": 3788,
+      "static_RAM_bytes": 57
+    },
+    {
+      "sketch": "RoboOctoArduinoCode",
+      "fqbn": "arduino:mbed_nano:nanorp2040connect",
+      "core_version": "4.2.4",
+      "Servo_version": "1.2.2",
+      "compiled": true,
+      "flash_bytes": 99739,
+      "static_RAM_bytes": 45060
+    }
+  ],
+  "hardware_uploaded": false
+}
