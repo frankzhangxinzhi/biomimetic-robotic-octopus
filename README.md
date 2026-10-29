@@ -8,9 +8,9 @@ A biomimetic underwater robot using asymmetrically stiffening flexible fins for 
 
 ## Overview
 
-This project was developed by a three-person USC engineering team to design, manufacture, and test a compact biomimetic underwater robot. Four servo-actuated flexible fins use asymmetric stiffening to generate propulsion and enable maneuvering.
+This project was developed by a three-person USC engineering team to design, manufacture, and test a compact biomimetic underwater robot. Four servo-actuated flexible fins use asymmetric stiffening to generate propulsion.
 
-The prototype completed 3 m swimming trials and demonstrated a 180-degree turn in 5.5 ± 0.4 seconds by deactivating one fin.
+The prototype completed 3 m swimming trials. Three fin-deactivation trials measured a 180-degree turning response of 5.5 ± 0.4 seconds. Closed-loop heading control and trajectory tracking remained future work.
 
 ## My Contributions
 
@@ -63,8 +63,10 @@ Pool testing was recorded using multiple GoPro cameras. The robot's position was
 
 - Completed 3 m straight-swimming trials.
 - Measured vertical path deviation ranged from 0.44 m to 0.79 m, demonstrating the need for active stability control.
-- Completed a 180-degree turn in 5.5 ± 0.4 seconds across three trials by deactivating one fin.
+- Characterized the open-loop turning response by deactivating one fin: a 180-degree reorientation took 5.5 ± 0.4 seconds across three trials.
 - IMU acceleration and gyroscope data were evaluated for future pitch, roll, and yaw feedback control.
+
+The turning trials demonstrated a basic response to asymmetric fin actuation. Precise commanded-heading control, closed-loop stabilization, and trajectory tracking were not implemented. Testing was limited to three trials per swimming method, and only the 1:1 recovery-to-power-stroke time ratio was tested.
 
 ## Engineering Lessons
 
