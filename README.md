@@ -29,6 +29,8 @@ The prototype completed 3 m swimming trials and demonstrated a 180-degree turn i
 
 <p align="center"><em>Cross-sectional SolidWorks model showing the mechanical and electrical system layout.</em></p>
 
+[View the complete SolidWorks source assembly and neutral STEP model.](hardware/mechanical)
+
 ### Mechanical Architecture
 
 - Overall vehicle length: 320 mm, including the flexible fins.
@@ -73,11 +75,15 @@ Pool testing was recorded using multiple GoPro cameras. The robot's position was
 ```text
 .
 ├── hardware/
-│   └── pcb/                      # KiCad schematic, PCB layout, and project files
+│   ├── mechanical/
+│   │   ├── solidworks/               # SolidWorks assembly and referenced part files
+│   │   ├── step/                     # Software-independent STEP assembly
+│   │   └── README.md                 # Mechanical design documentation
+│   └── pcb/                          # KiCad schematic, PCB layout, and project files
 ├── software/
 │   └── firmware/
-│       └── robot_control_ble/    # Arduino BLE servo-control firmware
-├── images/                       # Prototype and system-design images
+│       └── robot_control_ble/        # Arduino BLE servo-control firmware
+├── images/                           # Prototype, CAD, and system-design images
 ├── .gitignore
 └── README.md
 ```
